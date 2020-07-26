@@ -9,7 +9,6 @@ const port = 5000; // Free to change as the free port in the network
 const cors = require('cors');
 const { response } = require("express");
 const functions = require('firebase-functions');
-const firebase = require('firebase-admin');
 
 app.use(bodyParser.json('application/json'));
 app.use(cors());
@@ -242,5 +241,5 @@ var server = app.listen(5000, function(){
   console.log(`Example app listening at http://localhost:${port}`)
 });
 
-firebase.initializeApp(app);
+
 exports.HelloWord = functions.https.onRequest(app);

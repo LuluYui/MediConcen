@@ -14,6 +14,8 @@
     "mysql": "^2.18.1",
     "nodemon": "^2.0.4",
     "passport": "^0.4.1",
-    "yargs": "^15.4.1"
+    "yargs": "^15.4.1",
+    "firebase-functions": "^3.8.0",
+    "firebase-admin": "^9.0.0"
   }
 }
